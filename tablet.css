@@ -1,0 +1,85 @@
+/* header */ /* header */ /* header */ 
+/* header */ /* header *//* header */
+
+nav a .nav__logo img{
+    cursor: pointer;
+    transition: 2s;
+}
+
+nav .nav__logo img:hover {
+    transform: scale(2);
+}
+
+nav ul.nav__categories {
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav ul.nav__categories .nav__categories--item {
+    margin: 0 35px;
+}
+
+nav .nav__car img {
+    cursor: pointer;
+    transition: 2s
+}
+
+nav .nav__car img:hover {
+    transform: scale(2);
+}
+
+
+
+
+/* Main */ /*  Main */  /* Main */  /* Main */ 
+/* Main */  /* Main */ /* Main */ /* Main */ 
+/* Main */  /* Main */  /* Main */  /* Main */ 
+
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .container__slogan {
+    font-size: 4rem;
+}
+
+.container .container__moodboard {
+    width: 900px;
+
+}
+
+.container .container__cta h4 {
+    font-size: 3rem;
+}
+
+.container .container__cta button {
+    width: 200px;
+    height: 50px;
+    border: rgb(66, 62, 62) solid 2px;
+    border-radius: 2px;
+}
+
+.container .container__cta button a {
+    font-size: 2rem;
+}
+
+.container .container__cta button a:hover {
+    color: rgb(189, 18, 75);
+    font-weight: 700;
+}
+
+
+/* footer */ /* footer */ /* footer */ /* footer */
+/* footer */ /* footer */ /* footer */ 
+/* footer */ /* footer */ /* footer */ 
+
+footer section.footer__contact {
+    font-size: 4rem;
+}
+
+footer section.footer__vias {
+    font-size: 2.5rem;
+}

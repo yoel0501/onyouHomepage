@@ -1,0 +1,149 @@
+:root {
+    --primary-color: #ede8e8  ;
+    --primary-color-2: #000B0D;
+    --action-color-1: #1C8394;
+    --action-color-2: #390D02;
+    --bolean-color-1: #024505;
+    --bolean-color-2: #590412;
+    --background: #154B52;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--background);
+}
+
+/* header */ /* header */ /* header */
+/* header *//* header *//* header */
+/* header *//* header *//* header */
+
+nav {
+    background-color: var(--primary-color-2);
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav picture.nav__logo img {
+    height: 60px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+
+nav ul.nav__categories li.nav__categories--item {
+    list-style: none;
+    padding: 4px 0;
+}
+
+nav ul.nav__categories li.nav__categories--item a {
+    text-decoration: none;
+}
+
+nav picture.nav__car img {
+    height: 60px;
+    width: auto;
+}
+
+/* main */ /* main */ /* main */ /* main */
+/* main */ /* main */ /* main */ /* main */ 
+/* main */ /* main */ /* main */ /* main */
+
+main.container {
+    padding-bottom: 30px;
+}
+
+div.container__slogan {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container__moodboard {
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container__moodboard picture img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+main div.container__cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main div.container__cta button {
+    margin-top: 15px;
+    background-color: var(--action-color-2);
+    width: 120px;
+    height: 30px;
+}
+
+main div.container__cta button a {
+    text-decoration: none;
+    color: rgb(208, 235, 183);
+}
+
+/* footer */ /* footer */ /* footer */ /* footer */
+/* footer */ /* footer */ /* footer */ /* footer */ 
+/* footer */ /* footer */ /* footer */ /* footer */ 
+
+footer {
+    width: 100%;
+    display: flex;
+}
+
+footer section.footer__contact {
+    background-color: var(--bolean-color-1);
+    height: 20vh;
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section.footer__contact ul li {
+    list-style: none;
+    color: var(--primary-color)
+}
+
+footer section.footer__vias {
+    background-color: var(--bolean-color-2);
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section.footer__vias ul li {
+    list-style: none;
+    margin: 8px 0;
+}
+
+footer section.footer__vias ul li a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+
+
