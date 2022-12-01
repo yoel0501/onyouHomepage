@@ -29,6 +29,10 @@ nav .nav__car img:hover {
     transform: scale(2);
 }
 
+header nav figure {
+    display: none;
+}
+
 
 
 
